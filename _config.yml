@@ -1,0 +1,9 @@
+title: mxclover
+author: mxclover
+description: personal blog
+disqus_shortname: mxclover
+highlighter: null
+permalink: /:year/:month/:day/:title/
+
+url: 
+baseurl:
