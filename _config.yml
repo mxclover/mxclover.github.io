@@ -1,8 +1,24 @@
 root: /
+baseurl: http://mxclover.github.io
 permalink: /:year-:month/:title/
 markdown: kramdown
-pygments: false
-paginate: 5
 
-title: mxclover's blog
+markdown_ext:  markdown,md
 
+paginate: 3
+paginate_path: '/page:num'
+
+gems:
+  - jekyll-archives
+  - jekyll-paginate
+
+title: mxclover
+email: "mingx91.py@gmail.com"
+authors: 
+        name: mxclover
+        display_name: mxclover
+        github: mxclover
+        
+
+exclude:
+  - README.md

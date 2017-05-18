@@ -1,32 +1,35 @@
 ---
 layout: page
-title: 文章分类
+title:  Categories
 ---
 
-<div class="page-categories">
-    <ul class="list-group">
+<article class="categories">
+	<div class="lost-cat lost-blockbox fn-clear">
     {% for cat in site.categories %}
-    <li class="list-group-item">
-        <span class="badge">{{ cat[1].size }}</span>
-        <a href="#{{ cat[0] }}-ref" class="category-heading" title="分类:{{ cat[0] }}" >{{ cat[0] }}</a>
-    </li>
+	<p>
+	  &sect; <a href="#{{ cat[0] }}-ref" title="{{ cat[0] }}" class="lost-ul-title" rel="{{ cat[1].size }}">{{ cat[0] }}</a>
+      <sup>({{ cat[1].size }})</sup>
+	</p>
     {% endfor %}
-    </ul>
-</div>
+	</div>
+</article>
 
-<div class="page-blank">
-{% for cat in site.categories %}
-    <div class="page-list">
-        <h3 id="{{ cat[0] }}-ref"> {{ cat[0] }}</h3>
-        <ul>
-            {% for post in cat[1] %}
-            <li>
-                <span>{{ post.date | date:"%Y年%m月%d日" }} </span>
-                <a href="{{ post.url }}">{{post.title}} </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+<section class="category" class="fn-clear">
+<article class="fn-clear">
+{% for cat in site.categories %} 
+<ul>
+<li>
+<span id="{{ cat[0] }}-ref" class="lost-ul-title" rel="bookmark"> {{ cat[0] }}</span>
+	<ul class="lost-cat fn-clear">
+    {% for post in cat[1] %}
+	<li>
+	<span class="lost-date">{{ post.date| date: "%B %e,%Y" }}</span> &raquo; <span><a href='{{ post.url }}'>{{post.title}}</a></span>
+	</li>
+	{% endfor %}
+	</ul>
+</li>
+</ul>
 {% endfor %}
-</div>
+</article>
+</section>
 
