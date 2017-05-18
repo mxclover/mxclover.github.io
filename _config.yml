@@ -1,17 +1,8 @@
-title: mxclover
-author: mxclover
-description: personal blog
-disqus_shortname: mxclover
-highlighter: null
-permalink: /:year/:month/:day/:title/
+root: /
+permalink: /:year-:month/:title/
+markdown: rdiscount
+pygments: false
+paginate: 5
 
-url: 
-baseurl:
+title: mxclover's blog
 
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: GitHub
-    url: http://github.com/mxclover
