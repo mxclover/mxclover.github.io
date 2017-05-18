@@ -1,4 +1,7 @@
-# The Zen of Python, by Tim Peters
+---
+layout: post
+title: The Zen of Python, by Tim Peters
+---
 
 Beautiful is better than ugly.
 Explicit is better than implicit.
