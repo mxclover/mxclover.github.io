@@ -8,6 +8,9 @@ categories: 随笔
 ---
 
 Hello, world!
+
+<!--more-->
+
 This is my first blog.
 
 
