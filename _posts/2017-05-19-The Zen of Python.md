@@ -16,7 +16,7 @@ The Zen of Python
 
 
 
-以下是 [Zoom.Quiet](http://blog.zoomquiet.io/)对这首诗的翻译：
+以下是 [Zoom.Quiet](http://blog.zoomquiet.io/)(大妈)对这首诗的翻译：
 
 # 蟒禅
 美丽好过丑陋,浅显好过隐晦,
