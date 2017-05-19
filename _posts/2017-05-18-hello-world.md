@@ -2,7 +2,7 @@
 layout: post
 comments: true
 author: mxclover
-title: Hello World
+title: 你好，世界！
 description: 
 categories: About
 tags: author
