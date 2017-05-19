@@ -2,13 +2,14 @@
 layout: post
 comments: true
 author: mxclover
-title: 关于 bamboo
+title: Hello World
 description: 
 categories: About
 tags: author
 ---
 
-Hello! This is my first blog.
+Hello, world!
+This is my first blog.
 
 
 
