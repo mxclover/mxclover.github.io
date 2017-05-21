@@ -9,7 +9,7 @@ type: post
 	{% for post in paginator.posts %}
 	<article class="main-excerpt fn-clear">
 
-		<h4 class="main-excerpt-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h4>
+		<h5 class="main-excerpt-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h5>
 
 		{{ post.content | split:'<!--more-->' |first }}
 
