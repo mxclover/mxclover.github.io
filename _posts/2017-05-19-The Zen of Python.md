@@ -16,6 +16,7 @@ The Zen of Python。
 
 详见 [Zen of Python](https://medium.com/getpy/zen-of-python-aa432db216f5)，
 中译版可参考 [蟒之禅](http://wiki.woodpecker.org.cn/moin/PythonZen)
+
 说下我对这首诗的理解，对应Python而言，优美的代码应该是：
 
 - 简洁的
